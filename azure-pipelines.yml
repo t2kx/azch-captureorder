@@ -9,7 +9,7 @@ variables:
     value: 'captureorder' # replace with your own image name to match the name in the deployment.yaml
 
   - name: tag
-    value: '$(Build.BuildId)'
+    value: 'latest'
 
 stages:
 - stage: Build
